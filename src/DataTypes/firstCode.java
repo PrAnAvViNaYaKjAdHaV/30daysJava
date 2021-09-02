@@ -9,6 +9,9 @@ public class firstCode {
         x.swap(a, b);
         int c = 0;
          System.out.println(++c);
+         boolean ans = false;
+        ans = !ans;
+         System.out.println(ans);
        
     }
      void swap (int a ,int b){
