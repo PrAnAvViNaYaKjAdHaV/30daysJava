@@ -1,14 +1,17 @@
 package Collection;
 import java.util.*;
 
-import javax.sound.sampled.LineListener;
+
 /**
  * list
  */
 public class list {
      Collection<String> l;
     public static void main(String[] args) {
-       List<Integer> x = new ArrayList<>(); 
+       List<Integer> x = new ArrayList<>();
+       x.add(1);
+       x.add(2);
+       x.add(3);
        list p = new list();
         p.l=new ArrayList <String>();
         LinkedList<String> que = new LinkedList<>();
@@ -20,13 +23,13 @@ public class list {
         que.add("anesh");
         que.add("aniket");
         //que 
-    //    System.out.println(que.remove());
-    //    System.out.println(que.remove());
-    //    System.out.println(que.remove());
-    //    System.out.println(que.remove());
-    //    System.out.println(que.remove());
-    //    System.out.println(que.remove());
-    //    System.out.println(que.remove());
+       System.out.println(que.remove());
+       System.out.println(que.remove());
+       System.out.println(que.remove());
+       System.out.println(que.remove());
+       System.out.println(que.remove());
+       System.out.println(que.remove());
+       System.out.println(que.remove());
 
        //stacks
        System.out.println(que.removeLast());
