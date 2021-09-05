@@ -21,7 +21,7 @@ public class LikedList {
         is.next();
 
         is.add(6);
-        Iterator <Integer>it = Stack.iterator();
+        // Iterator <Integer>it = Stack.iterator();
         // System.out.println(it.next());
         // System.out.println(it.next());
         // System.out.println(it.next());
@@ -46,5 +46,6 @@ public class LikedList {
         // System.out.println(Stack.remove());
         // System.out.println(Stack.remove());
        
+         
       }
 }
