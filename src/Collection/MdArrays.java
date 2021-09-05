@@ -21,7 +21,7 @@ public class MdArrays {
          System.out.println("Loop Using Enhance for loop :");
          for( int [] eachRow : data){
              for( int j : eachRow){
-                 System.out.print(j+"\t");
+                 System.out.print(j+"\t"); // \t for sapce
              }
              System.out.println("");
          }
